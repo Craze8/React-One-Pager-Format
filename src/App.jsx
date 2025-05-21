@@ -1,13 +1,20 @@
 import React from 'react'
-import Hero from './Component/Hero'
-import ArticleTabs from './Component/Article'
+import Hero from './Pages/Hero'
+import Article from './Pages/Article'
+import CTH from './Pages/CTH'
+import Navbar from './Component/Navbar'
+import Menu from './Pages/Menu'
 
 function App() {
   return (
     <div>
+    <Navbar/>
+    <br/>
+    <br/>
       <Hero/>
-    <ArticleTabs/>
- 
+    <Article/>
+    <CTH/>
+    <Menu/>
     </div>
   )
 }

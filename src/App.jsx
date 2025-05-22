@@ -4,6 +4,7 @@ import Article from './Pages/Article'
 import CTH from './Pages/CTH'
 import Navbar from './Component/Navbar'
 import Menu from './Pages/Menu'
+import Footer from './Component/Footer'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Article/>
     <CTH/>
     <Menu/>
+    <Footer/>
     </div>
   )
 }

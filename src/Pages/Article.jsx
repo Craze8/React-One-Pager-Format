@@ -38,7 +38,7 @@ const Article = () => {
     <div className="relative min-h-screen bg-gray-50 px-4 py-12 md:px-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         
-        {/* Large Featured Article */}
+
         <div className="md:col-span-2 bg-white rounded-xl shadow overflow-hidden">
           <img
             src={foodArticles[0].image}

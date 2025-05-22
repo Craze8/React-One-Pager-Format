@@ -7,21 +7,20 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-black shadow-md fixed top-0 w-full z-50">
+    <nav className="bg-white shadow-md fixed top-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          {/* Logo */}
-          <div className="text-xl font-bold text-white">THE BAR</div>
+   
+          <div className="text-xl font-bold text-black">THE BAR</div>
 
-          {/* Desktop Links */}
+         
           <div className="hidden md:flex space-x-6">
-            <a href="#" className="text-white hover:text-blue-500">Home</a>
-            <a href="#" className="text-white hover:text-blue-500">About</a>
-            <a href="#" className="text-white hover:text-blue-500">Services</a>
-            <a href="#" className="text-white hover:text-blue-500">Contact</a>
+            <a href="#" className="text-black hover:text-blue-500">Home</a>
+            <a href="#" className="text-black hover:text-blue-500">About</a>
+            <a href="#" className="text-black hover:text-blue-500">Article</a>
+            <a href="#" className="text-black hover:text-blue-500">Menu</a>
           </div>
 
-          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button onClick={toggleMenu}>
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}

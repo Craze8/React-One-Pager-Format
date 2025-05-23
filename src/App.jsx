@@ -1,11 +1,11 @@
 import React from 'react'
-import Hero from './Pages/Hero'
-import Article from './Pages/Article'
-import CTH from './Pages/CTH'
+import Hero from './Pages/hero'
+import Article from './Pages/article'
+import CTH from './Pages/cth'
 import Navbar from './Component/Navbar'
-import Menu from './Pages/Menu'
+import Menu from './Pages/menu'
 import Footer from './Component/Footer'
-import About from './Pages/About'
+import About from './Pages/about'
 
 function App() {
   return (

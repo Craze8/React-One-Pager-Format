@@ -4,7 +4,7 @@ import Burgerimg from '../Images/Bgmenu.png';
 const Menu = () => {
   return (
     <div className="bg-gray-50 px-4 py-2 md:px-12">
-      {/* Top Bar */}
+
       <div className="flex justify-between items-center mb-8">
         <div className="bg-black text-white px-4 py-1 rounded-full text-sm font-semibold">
           Recipe of the Week
@@ -14,9 +14,9 @@ const Menu = () => {
         </div>
       </div>
 
-      {/* Menu Items */}
+
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
-        {/* Item 1 */}
+        
         <div>
           <h2 className="text-2xl font-bold">
             Basket of wedges <span className="text-gray-500 font-normal">—— 35</span>

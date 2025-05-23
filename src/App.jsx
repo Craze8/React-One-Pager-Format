@@ -5,6 +5,7 @@ import CTH from './Pages/CTH'
 import Navbar from './Component/Navbar'
 import Menu from './Pages/Menu'
 import Footer from './Component/Footer'
+import About from './Pages/About'
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
     <br/>
       <Hero/>
     <Article/>
-    <CTH/>
+    <About/>
     <Menu/>
+      <CTH/>
     <Footer/>
     </div>
   )

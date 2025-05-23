@@ -3,7 +3,7 @@ import Burgerimg from '../Images/Bgmenu.png';
 
 const Menu = () => {
   return (
-    <div className="bg-gray-50 px-4 py-12 md:px-12">
+    <div className="bg-gray-50 px-4 py-2 md:px-12">
       {/* Top Bar */}
       <div className="flex justify-between items-center mb-8">
         <div className="bg-black text-white px-4 py-1 rounded-full text-sm font-semibold">

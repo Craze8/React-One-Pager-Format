@@ -35,7 +35,7 @@ const foodArticles = [
 
 const Article = () => {
   return (
-    <div className="relative min-h-screen bg-gray-50 px-4 py-12 md:px-12">
+    <div className="relative min-h-[55vh] bg-gray-50 px-4 py-12 md:px-12 font-serif">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         
 
@@ -96,10 +96,7 @@ const Article = () => {
         ))}
       </div>
 
-      {/* Page Number - Static at Bottom Right */}
-      <div className="absolute bottom-6 right-8 text-gray-400 font-semibold text-lg">
-        <p>2</p>
-      </div>
+    
     </div>
   );
 };

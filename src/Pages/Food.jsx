@@ -35,7 +35,7 @@ const Menu = () => {
           </button>
         </div>
 
-        {/* Item 2 */}
+  
         <div>
           <h2 className="text-2xl font-bold">
             Chicken Burgers <span className="text-gray-500 font-normal">—— 18</span>

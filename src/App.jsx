@@ -4,9 +4,8 @@ import Footer from './Component/Footer'
 import Homepage from './Pages/Homepage'
 import Navbar from './Component/navbar'
 import Article from './Pages/article'
-import { MdCallToAction } from 'react-icons/md'
 import CalltoAction from './Pages/CalltoAction'
-import Menu from './Pages/menu'
+import Food from './Pages/Food'
 
 
 function App() {
@@ -19,7 +18,7 @@ function App() {
     <Homepage/> 
     <Article />
          <About />
-      <Menu />
+      <Food />
     <CalltoAction />
       <Footer />
     </div>

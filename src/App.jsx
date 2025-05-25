@@ -7,7 +7,7 @@ import Hero from './Pages/Abt'
 import Homepage from './Pages/Homepage'
 import Navbar from './Component/navbar'
 import CTH from './Pages/CTH'
-import Article from './Pages/article'
+import Article from './Pages/article.jsx'
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <br />
       <br />
     <Homepage/> 
-   <Article />
+    <Article />
          <About />
       <Menu />
       <CTH />

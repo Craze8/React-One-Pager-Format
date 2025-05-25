@@ -18,7 +18,7 @@ const Navbar = () => {
             <a href="#" className="text-black hover:text-blue-500">Home</a>
             <a href="#" className="text-black hover:text-blue-500">About</a>
             <a href="#" className="text-black hover:text-blue-500">Article</a>
-            <a href="#" className="text-black hover:text-blue-500">Menu</a>
+            <a href="#" className="text-black hover:text-blue-500">Food</a>
           </div>
 
           <div className="md:hidden">

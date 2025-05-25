@@ -1,12 +1,12 @@
 import React from 'react'
 import About from './Pages/Abt'
 import Article from './Pages/article'
-import CTH from './Pages/cth'
-import Navbar from './Component/Navbar'
 import Menu from './Pages/menu'
 import Footer from './Component/Footer'
 import Hero from './Pages/Abt'
 import Homepage from './Pages/Homepage'
+import Navbar from './Component/navbar'
+import CTH from './Pages/CTH'
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <br />
       <br />
     <Homepage/> 
-      <Article />
+   <Article />
          <About />
       <Menu />
       <CTH />

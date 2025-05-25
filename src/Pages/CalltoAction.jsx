@@ -1,11 +1,8 @@
-import React from 'react';
-// Images imported but currently unused
-import Pizzaimg from '../Images/pizzaimg.jpg';
-import Burgerimg from '../Images/Burgerimg.jpg';
+import React from 'react'
 
-const CTH = () => {
+const CalltoAction = () => {
   return (
-    <div className="p-10 sm:p-10 m-5 rounded-3xl bg-gray-900 dark:bg-gray-900 dark:text-white  text-black flex items-center justify-center overflow-hidden shadow-2xl">
+  <div className="p-10 sm:p-10 m-5 rounded-3xl bg-gray-900 dark:bg-gray-900 dark:text-white  text-black flex items-center justify-center overflow-hidden shadow-2xl">
       <div className="w-full max-w-6xl px-4 sm:px-6">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           {/* Left Section: Text Content */}
@@ -49,7 +46,7 @@ const CTH = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default CTH;
+export default CalltoAction

@@ -1,13 +1,12 @@
 import React from 'react'
 import About from './Pages/Abt'
-
-import Menu from './Pages/menu'
 import Footer from './Component/Footer'
-import Hero from './Pages/Abt'
 import Homepage from './Pages/Homepage'
 import Navbar from './Component/navbar'
-import CTH from './Pages/CTH'
-import Article from './Pages/article.jsx'
+import Article from './Pages/article'
+import { MdCallToAction } from 'react-icons/md'
+import CalltoAction from './Pages/CalltoAction'
+import Menu from './Pages/menu'
 
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
     <Article />
          <About />
       <Menu />
-      <CTH />
+    <CalltoAction />
       <Footer />
     </div>
   )

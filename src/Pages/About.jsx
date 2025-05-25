@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaUtensils } from 'react-icons/fa'; // Icon package (make sure it's installed)
+import { FaUtensils } from 'react-icons/fa'; 
 import burgerimg from '../Images/HeroBurger.jpg';
 
 const About = () => {
@@ -22,7 +22,6 @@ const About = () => {
           </p>
         </div>
 
-        {/* Image Section */}
         <div className='w-full md:w-1/2 flex justify-center items-center'>
           <img 
             src={burgerimg}

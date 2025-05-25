@@ -10,7 +10,7 @@ const CalltoAction = () => {
             <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-8xl font-extrabold uppercase leading-tight tracking-tight">
               THE DESIGN<span className="text-yellow-500"><br></br>SNACK</span>
             </h1>
-            <p className="mt-4 text-base sm:text-lg md:text-xl font-medium text-gray-400 dark:text-gray-400 text-gray-700 text-balance">
+            <p className="mt-4 text-base sm:text-lg md:text-xl font-medium dark:text-gray-400 text-gray-700 text-balance">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap gap-4">

@@ -12,7 +12,6 @@ function App() {
   return (
     <div>
       <Navigation />
-
       <br />
       <br />
     <Homepage/> 

@@ -7,7 +7,7 @@ const About = () => {
     <div className='min-h-[60vh] mt-10 bg-gradient-to-br from-yellow-50 to-red-100 px-4 py-16'>
       <div className='flex flex-col md:flex-row items-center justify-center gap-12'>
         
-        {/* Text Section */}
+        
         <div className='max-w-[500px] w-full mx-4 p-6 bg-white border border-gray-800 rounded-xl shadow-xl text-center md:text-left'>
           <div className='flex items-center justify-center md:justify-start gap-2 mb-4 text-red-600'>
             <FaUtensils className='text-3xl' />

@@ -17,9 +17,7 @@ const CTH = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <div className="mt-6 sm:mt-8 flex flex-wrap gap-4">
-        
-
-        
+  
               <a
                 href="#learn-more"
                 className="rounded-sm p-3 grow border text-center border-yellow-500 text-yellow-500 font-bold uppercase text-sm tracking-widest hover:bg-yellow-500 hover:text-black transition"

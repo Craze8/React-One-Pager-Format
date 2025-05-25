@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-const Navbar = () => {
+const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -42,4 +42,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navigation;
